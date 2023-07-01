@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Toms Madžuls tm22005
+-->
+<html lang="en">
+    <head>
+        <title>Reading List</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="list-style.css">
+        <script src="list.js"></script>
+    </head>
+    <body>
+        <div class="page">
+            <div class="reading-list">
+                <h1>Reading list</h1>
+                <p>You can add a book to the list</p>
+                <div class="list-container">
+                    <ol id="book-list">
+                        <li class="section-1">The Alchemist by Paulo Coelho</li>
+                        <li class="section-1">Atomic Habits by James Clear</li>
+                        <li class="section-1">Thinking Fast And Slow by Daniel Kahneman</li>
+                        <li class="section-1">The Four Agreements by Don Miguel Ruiz</li>
+                        <li class="section-1">The 7 Habits Of Highly Effective People by Stephen R. Covey</li>
+                        <div id="show-more">
+                            <li class="section-2">Best Self by Mike Bayer</li>
+                            <li class="section-2">Who Moved My Cheese by Spencer Johnson</li>
+                        </div>
+                    </ol>
+                </div>
+                <button id="show-btn">Show more</button>
+            </div>
+            <div class="recommend">
+                <h1>Recommend a book to read</h1>
+                <p>Please follow this format:</p>
+                <p><strong>Book</strong> by <strong>Author</strong></p>
+                <div id="inputs">
+                    <input id="input-field" type="text">
+                    <button id="add-btn">+</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

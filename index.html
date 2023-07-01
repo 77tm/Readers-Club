@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+Toms Madžuls tm22005                        
+-->
+<html lang="en">
+    <head>
+        <title>Readers Club</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="logic.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="opening" id="opening">
+                <div class="header">
+                    <div class="logo">
+                        <p id="logo-name">Readers <span id="club">Club</span></p> 
+                    </div>
+                    <div class="navigation">
+                        <nav>
+                            <ul>
+                                <li><a href="#opening">Home</a></li>
+                                <li><a href="#information">Info</a></li>
+                                <li><a href="#quote">Quotes</a></li>
+                                <li><a href="#membership">Register</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="content-1">
+                    <h1>Join the biggest book club in the World</h1>
+                    <p>If reading is your passion and you value self education highly, then this <br> is the right place for you.</p>
+                    <a href="reading-list.html" target="_blank" id="reading-list-link">Reading list</a>
+                </div>
+                <div class="content-2">
+                    <img src="black-book.jpg" alt="photo of a book">
+                </div>
+            </div>
+            <hr>
+            <div class="info">
+                <div class="info-top" id="information">
+                    <div id="join-headline">
+                        <h2>Why should you consider <span class="joining">joining</span> us?</h2>
+                    </div>
+                    <div id="join-text">
+                    <p>Book clubs promote a love of literature in a positive, nurturing environment. The purpose of any club is to bring a community together to learn about and discuss something that matters to them, and a book club is no different. One of the biggest benefits of book clubs, particularly for those trying to get back into reading, is that book clubs help keep you accountable to actually reading!
+                    By joining a book club, you’re committing to read the book of the month (or week, etc.). And if you don’t read the book, you know you’ll be disappointing your fellow book club members. So joining a book club can be a great way to force yourself to read if you need a little external motivation to do so!</p>
+                    </div>
+                </div>
+                <div class="info-middle">
+                    <div class="info-middle-left">
+                        <img src="pc-reading.jpg" alt="reading a book">
+                    </div>
+                    <div class="info-middle-right">
+                        <h2 id="list-heading">7 <span class="joining">Reasons to join</span> a book club</h2>
+                        <ul id="reason-list">    
+                            <li>It forces you to <span class="keywords">actually read</span>. Signing up for a club gives you a dedicated reason to read on a more regular basis.</li>
+                            <li>You can make new friends — not just the fictional ones, either. In a book club, <span class="keywords">you get to hold conversations</span> with people, and no one is going to give you weird looks for acting like the characters are real people.</li>
+                            <li>It  gives you a different perspective. Discussing the wider themes and character arcs of a story can give you<span class="keywords"> a new perspective</span> on reading, and actually allows you to gain more out of books than you did before.</li>
+                            <li>It <span class="keywords">broadens your horizons</span>. Having someone else select or recommend your reading material allows you to be introduced to new genres and styles that you might never have picked yourself.</li>
+                            <li>It Improves your own writing skills. Not only will you learn how to dissect themes, characters, settings and plots written by other authors, you will also <span class="keywords">get an indication of what readers enjoy</span>.</li>
+                            <li>They usually involve snacks. For those of you who really need convincing, <span class="keywords">there is almost always food</span> shared at meetings.</li>
+                            <li>It gives you a break amidst the madness of life. When so much is going on around you, and life is just a little tough, <span class="keywords">books can be a haven</span>.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-bottom">
+                    <p id="quote">“There is no friend as loyal as a book.”</p>
+                    <button id="quoteButton">Show a different quote</button>
+                </div>
+            </div>
+            <div class="footer" id="membership">
+                <div class="headline">
+                    <h1>Membership Application</h1>
+                    <p>To apply for membership please complete all questions.</p>
+                </div>
+                <form action="https://www.w3schools.com/action_page.php" method="get"  target="_blank">
+                    <div class="form-attributes">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" >
+                    </div>
+                    <div class="form-attributes">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" >
+                    </div>
+                    <div class="form-attributes">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" >
+                    </div>
+                    <div class="form-attributes">
+                        <label for="age">Age</label>
+                        <input type="text" name="age" id="age">
+                    </div>
+                    <div class="form-attributes">
+                        <label for="length">Membership Length (1-12 months)</label>
+                        <input type="text" name="length" id="length">
+                    </div>
+                    <button type="submit" id="form-button">Submit</button>
+                </form>
+                <ul id="validation-message"></ul>
+            </div>
+        </div>
+    </body>
+</html>

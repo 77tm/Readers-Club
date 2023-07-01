@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+html,body {
+  margin:0;
+  padding:0;
+}
+
+.opening {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 1fr;
+  padding: 10px;
+  box-sizing: border-box; 
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg,  rgb(255, 255, 255) 10% , rgb(229, 229, 229) 100%); 
+}
+
+.header {
+  grid-column: span 2;
+  font-family: 'Italiana', serif;
+  font-size: 20px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+  width: 25%;
+  float: left;
+}
+
+.logo #logo-name {
+  margin-top: 0;
+  padding-top: 14px;
+  padding-left: 16px;
+  color: rgb(0, 0, 0);
+  margin-left: 50px;
+  font-weight: bolder;
+}
+
+.navigation {
+  float: right;
+}
+
+.content-1 {
+  padding-left: 15%;
+  padding-top: 35%;
+  font-family: 'Italiana', serif;
+}
+
+.content-1 h1 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.content-1 p {
+  font-size: 18px;
+}
+
+#reading-list-link:link, #reading-list-link:visited {
+  background-color: rgb(255, 188, 65);
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Italiana', serif;
+  font-size: 16px;
+  font-style: italic;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 30px;
+}
+
+.content-1 #reading-list-link:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-2 {
+  position: relative;
+}
+
+.content-2 img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13%;
+  width: 50%;
+  border-radius: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info {
+  width: 100vw;
+  height: 130vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.info-top {
+  grid-column: span 2;
+  grid-row: span 1;
+  font-family: 'Italiana', serif;
+  margin-bottom: 30px;
+}
+
+.info-top h2 {
+  padding-left: 30px;
+  font-size: 30px;
+}
+
+.info-top p {
+  padding-left: 100px;
+  padding-right: 70px;
+  padding-top: 20px;
+  font-size: 17px;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+
+.joining {
+  color: #e5a226;
+}
+
+.we-read {
+  background-color: rgb(248, 246, 242);
+  border-radius: 10px;
+}
+
+.we-read h3 {
+  font-family: 'Italiana', serif;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.we-read ul {
+  padding-left: 60px;
+  list-style-type: disc;
+}
+
+.we-read li {
+  font-family: 'Italiana', serif;
+}
+
+.in-numbers {
+  font-size: 150px;
+  font-family: 'Nova Square', cursive;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: orange;
+  -webkit-text-fill-color: rgb(248, 246, 242);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.book-count {
+  color: rgb(255, 140, 0);
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 2px;
+  font-size: 150px;
+  font-family: 'Nova Square', cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.in-numbers:hover {
+  color: orange;
+  -webkit-text-fill-color: #9a95e0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #806026;
+}
+
+#books-read {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+.info-middle {
+  grid-column: span 2;
+  grid-row: span 2;
+  font-family: 'Italiana', serif;
+}
+
+.info-middle-left {
+  width: 50%;
+  float: left;
+}
+
+.info-middle-left img {
+  width: 90%;
+  padding-left: 8%;
+  padding-right: 5%;
+  padding-top: 50px;
+}
+
+.info-middle-right {
+  width: 50%;
+  float: right;
+}
+
+.info-middle-right h2 {
+  padding-left: 40px;
+  font-size: 30px;
+}
+
+.info-middle-right li {
+  margin-left: 40px;
+  margin-top: 10px;
+  text-align: justify;
+  margin-right: 50px;
+  text-indent: 15px;
+  letter-spacing: 1px;
+}
+
+.keywords {
+  color: rgb(141, 92, 0);
+  font-weight: bolder;
+}
+
+.info-bottom {
+  grid-column: span 2;
+  grid-row: span 1;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+#quote {
+  font-family: 'Italiana', serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(116, 97, 71);
+  height: 70px;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+#quoteButton {
+  background-color: rgb(255, 188, 65);
+  border: 0;
+  border-radius: 4px;
+  height: 35px;
+  width: 180px;
+  margin-top: 30px;
+  font-family: 'Italiana', serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+#quoteButton:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.19);
+}
+
+input, label {
+  display:block;
+}
+
+.form-attributes {
+  text-align: left;
+  font-size: 15px;
+}
+
+form {
+  margin-left: 25%;
+  margin-right:25%;
+  width: 50%;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+
+.headline {
+  text-align: center;
+}
+
+#form-button {
+  height: 30px;
+  width: 150px;
+  background-color: #00A5EB;
+  margin-top: 10px;
+}
+
+.numbers-description {
+  font-family: 'Italiana', serif;
+  font-size: 25px;
+  margin: 0;
+  color: #805300;
+}
+
+.sides {
+  padding-bottom: 30px;
+}
+
+.middle {
+  padding-top: 15px;
+}
+
+.footer {
+  width: 100vw;
+  height: 58vh;
+  font-family: 'Italiana', serif;
+  margin-top: 0px;
+  background-color: orange;
+  border-color: black;
+  border-top: 1px;
+  border-style: solid;
+  position: relative;
+}
+
+#validation-message {
+  color: black;
+  float: left;
+  position: absolute;
+  top: 30%;
+  font-weight: bold;
+}
+
+#validation-message li {
+  padding-bottom: 5px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 10px;
+    overflow: hidden;
+}
+  
+.navigation li {
+    float: left;
+}
+  
+.navigation li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+  
+.navigation li a:hover {
+    color: orange;
+}
+
+@media print {
+  .navigation{
+    display: none;
+  }
+}

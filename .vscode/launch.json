@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/a77/Documents/programmesana/timekla_tehnologijas/eksamens",
+      "program": "/Users/a77/Documents/programmesana/timekla_tehnologijas/eksamens/build/Debug/outDebug"
+    }
+  ]
+}
